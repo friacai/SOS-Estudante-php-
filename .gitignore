@@ -1,0 +1,22 @@
+# SOS-Estudante .gitignore
+
+# Arquivos de ambiente e segredos
+.env
+
+# Logs do sistema
+logs/*.log
+!logs/.gitkeep
+
+# Armazenamento interno e bancos locais de teste
+storage/*.sqlite
+storage/*.db
+!storage/.gitkeep
+
+# Executáveis locais e dependências de ambiente
+php_bin/
+vendor/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+.DS_Store
